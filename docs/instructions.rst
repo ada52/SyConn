@@ -16,7 +16,7 @@ More details are linked in the respective chapters.
 Installation
 ------------
 
-- Python 3.7
+- Python 3.9
 - The whole pipeline was designed and tested on Linux systems
 
 Before you can set up SyConn, ensure that the
@@ -30,7 +30,7 @@ named “syconn2” by running:
 
    git clone https://github.com/StructuralNeurobiologyLab/SyConn
    cd SyConn
-   conda env create -f environment.yml -n syconn2 python=3.7
+   conda env create -f environment.yml -n syconn2
    conda activate syconn2
    pip install -e .
 
